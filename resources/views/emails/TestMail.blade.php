@@ -26,38 +26,38 @@
 						</div>
 
 						@endif
-						<form action="{{route('emails.send')}}"  enctype="multipart/form-data">
+						<form action="{{route('emails.send')}}"  enctype="multipart/form-data" autocomplete="on">
 							<div class="form-group m-3 row">
-							<input class="col-md-12 p-2" placeholder="jina la kwanza" type="text" name="jinakwanza">
+							<input class="col-md-12 p-2" placeholder="jina la kwanza" type="text" name="jinakwanza"autocomplete="on">
 						</div>
 						<div class="row form-group m-3">
 							
-							<input placeholder="Jina la ukoo" class="col-md-12 p-2" type="text" name="jinaukoo">
+							<input autocomplete="on" placeholder="Jina la ukoo" class="col-md-12 p-2" type="text" name="jinaukoo">
 						</div>
 						
 						<div class="row form-group m-3">
 							
-							<input  placeholder="Email"  class="col-md-12 p-2" type="email" name="email">
+							<input autocomplete="on"  placeholder="Email"  class="col-md-12 p-2" type="email" name="email">
 						</div>
 						<div class="row form-group m-3">
 							
-							<input placeholder="Namba ya simu" class="col-md-12 p-2" type="text" name="namba">
+							<input autocomplete="on" placeholder="Namba ya simu" class="col-md-12 p-2" type="text" name="namba">
 						</div>
 						<div class="row form-group m-3">
 							
-							<input placeholder="Mtaa unaoishi" class="col-md-12 p-2" type="text" name="mtaa">
+							<input  autocomplete="on" placeholder="Mtaa unaoishi" class="col-md-12 p-2" type="text" name="mtaa">
+						</div>
+						<div  class="row form-group m-3">
+							
+							<input autocomplete="on" placeholder="Mkoa unaoishi" class="col-md-12 p-2" type="text" name="mkoa">
 						</div>
 						<div class="row form-group m-3">
 							
-							<input placeholder="Mkoa unaoishi" class="col-md-12 p-2" type="text" name="mkoa">
+							<input autocomplete="on" placeholder="nchi unayoishi" class="col-md-12 p-2" type="text" name="nchi">
 						</div>
 						<div class="row form-group m-3">
 							
-							<input placeholder="nchi unayoishi" class="col-md-12 p-2" type="text" name="nchi">
-						</div>
-						<div class="row form-group m-3">
-							
-							<input placeholder="sanduku la posta" class="col-md-12 p-2" type="text" name="posta">
+							<input autocomplete="on" placeholder="sanduku la posta" class="col-md-12 p-2" type="text" name="posta">
 						</div>
 						
 					
