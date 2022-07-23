@@ -37,7 +37,7 @@
 						
 						<div class="row form-group m-3">
 							
-							<input  placeholder="Email"  class="col-md-12 p-2" type="text" name="email">
+							<input  placeholder="Email"  class="col-md-12 p-2" type="email" name="email">
 						</div>
 						<div class="row form-group m-3">
 							
